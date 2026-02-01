@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema Fizică 02.02.2026</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .problem { background: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 5px; }
+        .result { color: #27ae60; font-weight: bold; }
+        .formula { font-family: "Cambria Math", serif; background: #eee; padding: 5px; }
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>Tema Fizică - 02.02.2026</h1>
+    
+    <h3>Date:</h3>
+    <ul>
+        <li>E = 4,4 V</li>
+        <li>r = 1,5 Ω</li>
+        <li>I = 200 mA = 0,2 A</li>
+    </ul>
+    
+    <div class="problem">
+        <h4>a) U = ?</h4>
+        <p>\(I = \frac{E}{R + r} \Rightarrow R = \frac{E}{I} - r\)</p>
+        <p>\(R = \frac{4,4}{0,2} - 1,5 = 22 - 1,5 = 20,5 \, \Omega\)</p>
+        <p>\(U = I \times R = 0,2 \times 20,5\)</p>
+        <p class="result">U = 4,1 V</p>
+    </div>
+    
+    <div class="problem">
+        <h4>b) I₂ = ?, când U₂ = 4 V</h4>
+        <p>\(I = \frac{E}{\frac{U_2}{I} + r}\)</p>
+        <p>\(4 + 1,5I = 4,4\)</p>
+        <p>\(1,5I = 0,4\)</p>
+        <p>\(I = \frac{0,4}{1,5}\)</p>
+        <p class="result">I₂ = 0,27 A</p>
+    </div>
+    
+    <div class="problem">
+        <h4>c) Isc = ?</h4>
+        <p>\(I_{SC} = \frac{E}{r} = \frac{4,5}{1,5}\)</p>
+        <p class="result">Isc = 3 A</p>
+    </div>
+</body>
+</html>
